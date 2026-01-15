@@ -1,10 +1,6 @@
 pipeline{
     agent any
     stages{
-        stage('pull code'){
-            steps{
-                git 'https://github.com/sathishgt07/python1.git'
-            }
         
         }
         stage('check version'){
@@ -21,4 +17,3 @@ pipeline{
     }
 
 
-}
