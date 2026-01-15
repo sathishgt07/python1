@@ -1,5 +1,5 @@
 def add(a, b):
     return a + b
 
-print(add(8, 9))
+print(add(8, 10))
 
